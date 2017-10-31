@@ -1,0 +1,51 @@
+// create basic website for displaying clothing styles using carousel on each page
+
+
+// home page will display company info and carousel of styles and pictues drawn from image folder randomly
+
+// there will be permanent pages- home, STYLES, SIZES, RETURNS 
+
+// home page will have info and carousel spinning thru pictures in image folder then returna nd contact info on bottom a;ong with join email lsit and receive coupon
+
+// dynamic pages will be created from image folder file names
+
+
+// when a picture is uploaded into imag folder it must be given specific notation STYLE-SIZE-NUMBER.jpg
+
+
+// when the image name is read from the folder it will read the STYLE name, create a new webpage, and display pictures into each STYLE webpage into carousel at top of page before widget is loaded below
+
+//  webspages will be created and inserted into STYLES dropdown nav
+
+//  sizes pages will be generated into SIZES subcats
+
+// within each STYLE page items will be displayed in order is SIZE first by NUMBER
+
+// dynamic pages will be ordered by first letter of image file.
+
+
+// in addition to displaying products by style each product will also be dispayed within a SIZE webspage and will be sorted according to STYLE then NUMBER
+
+
+// When each product is displayed on the page, the alt text will be dynamically created from the file name.  ex. "This STYLE dress is a SIZE"
+
+
+// each item will also dsiplay a title whihc will be derived from the image file name.
+
+
+// SKU is displayed and derived from image file name
+
+
+// PRICE displayed drawn from array of styles and prices
+
+
+// Item in stock will be dispalyed
+
+
+
+// ADD TO CART button will send SKU and PRICE info so database
+
+// when item is added to cart (button clicked) ADD TO CART button will disappear and ITEM OUT OF STOCK dispalyed
+
+
+// after 24 hours the image file will eb deleted from the folder and thus the system

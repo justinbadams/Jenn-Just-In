@@ -1,0 +1,34 @@
+/* - - - - - - - - - - - - - - - - - - - - 
+  Media Queries and Flexbox Settings
+  - - - - - - - - - - - - - - - - - - - */
+
+@media (min-width: 769px) {
+
+	.main-header,
+	.main-nav {
+		display: flex;
+	}
+    
+/* - - - - - - - - - - - - - - - - - - - - 
+  sets main.header to display as a centered column   between 769 and 1025px
+  - - - - - - - - - - - - - - - - - - - */
+    
+    .main-header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+}
+
+@media (min-width: 1025px) {
+/* - - - - - - - - - - - - - - - - - - - - 
+  sets main.header to display as a equal spaced items in row above 1025px
+  - - - - - - - - - - - - - - - - - - - */
+	.main-header,
+    {
+		flex-direction: row;
+		justify-content: space-between;
+
+	}
+
+}
